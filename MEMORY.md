@@ -15,6 +15,7 @@ Registro de lo que se ha hecho en Study App y de las decisiones tomadas. Las reg
 - Creado el repositorio público https://github.com/rubenpr13/study-app y subido el primer commit.
 - Añadido `.gitignore` (`node_modules/`, `dist/`, `.claude/settings.local.json`).
 - Nueva regla en `CLAUDE.md`: hacer commit y push al terminar cada cambio.
+- Añadido `README.md`: funcionalidades, tecnologías, cómo ejecutarlo, estructura y cómo funciona el temporizador.
 
 ## Decisiones pendientes de revisar
 Las tomé yo porque el encargo no las especificaba:
