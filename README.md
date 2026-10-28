@@ -5,7 +5,7 @@ Web para estudiar con la **técnica Pomodoro**: alterna bloques de concentració
 ## Funcionalidades
 
 - **Temporizador** que cuenta hacia atrás hasta `00:00`. Al abrir la web muestra 25 minutos de concentración y empieza al pulsar Play.
-- **Cambio automático de modo**: al terminar la concentración empieza el descanso corto y, al terminar el descanso, vuelve la concentración.
+- **Cambio automático de modo**: al terminar la concentración empieza el descanso corto y, al terminar el descanso, vuelve la concentración. El nuevo modo espera a que pulses Play.
 - **Dos presets**:
   | Preset | Concentración | Descanso corto |
   |---|---|---|

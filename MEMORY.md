@@ -17,11 +17,12 @@ Registro de lo que se ha hecho en Study App y de las decisiones tomadas. Las reg
 - Nueva regla en `CLAUDE.md`: hacer commit y push al terminar cada cambio.
 - Añadido `README.md`: funcionalidades, tecnologías, cómo ejecutarlo, estructura y cómo funciona el temporizador.
 - Corregido: el temporizador ya no arranca solo al abrir o recargar la página; espera a que se pulse Play. Cambia el requisito inicial ("que empiece automático"). Tras un cambio automático de modo sigue arrancando solo.
+- Cambiado después: tras un cambio automático de modo, el temporizador también queda en pausa hasta pulsar Play.
 
 ## Decisiones pendientes de revisar
 Las tomé yo porque el encargo no las especificaba:
 - [ ] Al terminar el descanso largo se vuelve a Concentración.
-- [ ] Tras un cambio automático de modo, el siguiente temporizador arranca solo.
+- [x] ~~Tras un cambio automático de modo, el siguiente temporizador arranca solo.~~ Cambiado el 2026-10-29: ahora queda en pausa hasta pulsar Play.
 - [ ] Cambiar de pestaña o de preset reinicia el tiempo y lo deja en pausa.
 - [ ] Detener pausa y vuelve al inicio del modo actual, sin sumar sesión.
 - [ ] Los contadores no se guardan al recargar la página.

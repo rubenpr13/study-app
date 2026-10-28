@@ -20,7 +20,7 @@ No hay tests ni linter configurados.
 ## Reglas del temporizador (no cambiarlas sin pedirlo)
 - Cuenta atrás hasta `00:00`. Al abrir o recargar la web se muestra Concentración con 25:00 en pausa; solo empieza al pulsar Play (cambiado por Rubén el 2026-10-29).
 - Presets: Corto = 25 min de foco / 5 min de descanso; Largo = 50 / 10. El Descanso largo dura siempre 30 min y solo se activa a mano.
-- Al llegar a 00:00 se pasa de Concentración a Descanso corto, y de cualquier descanso a Concentración. El siguiente temporizador arranca solo.
+- Al llegar a 00:00 se pasa de Concentración a Descanso corto, y de cualquier descanso a Concentración. El nuevo modo queda en pausa hasta pulsar Play (cambiado por Rubén el 2026-10-29).
 - Una sesión solo se suma cuando el temporizador termina, nunca al pausar, detener o cambiar de modo.
 - Cambiar de pestaña o de preset reinicia el tiempo y lo deja en pausa. Detener pausa y vuelve al inicio del modo actual.
 - El tiempo se calcula con la hora local del usuario (`Date.now()` y una hora de fin), nunca UTC ni hora del servidor. Así no se desfasa aunque la pestaña esté en segundo plano.

@@ -72,6 +72,9 @@ export default function App() {
     const siguienteModo = modo === "foco" ? "descansoCorto" : "foco";
     setModo(siguienteModo);
     setSegundosRestantes(obtenerDuracion(siguienteModo, preset));
+
+    // El nuevo modo queda en pausa hasta que el usuario pulse Play
+    setEnMarcha(false);
   }, [segundosRestantes]);
 
   // ----- Acciones de los botones -----
