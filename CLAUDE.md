@@ -26,6 +26,12 @@ No hay tests ni linter configurados.
 - El tiempo se calcula con la hora local del usuario (`Date.now()` y una hora de fin), nunca UTC ni hora del servidor. Así no se desfasa aunque la pestaña esté en segundo plano.
 - Los contadores viven en memoria y no se guardan.
 
+## Git y GitHub
+Repositorio público: https://github.com/rubenpr13/study-app (rama `master`, remoto `origin`).
+- **Subir siempre lo que se modifica (pedido por Rubén el 2026-10-29):** al terminar cada cambio que funcione, haz un commit y un `git push` sin esperar a que te lo pidan. No hace falta preguntar antes.
+- Un commit por cambio, con el mensaje en español y explicando qué se ha hecho.
+- Antes de cada commit, revisa `git status`: nunca subas `node_modules/`, `dist/`, `.claude/settings.local.json` ni claves o contraseñas.
+
 ## Segundo cerebro (vault de Obsidian)
 Vault: `C:\Users\ruben\iCloudDrive\iCloud~md~obsidian\Rpinazo`. Antes de escribir en él, lee su `AGENTS.md` y sigue sus reglas (plantilla, propiedades, carpetas sensibles…).
 - **Guardar**: a medida que avance la sesión, vuelca en el vault lo que se aprenda o decida, sin esperar a que te lo pidan. Las notas del proyecto se capturan en `00 - Inbox/` (decidido por Rubén el 2026-10-28):
