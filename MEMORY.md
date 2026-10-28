@@ -16,6 +16,7 @@ Registro de lo que se ha hecho en Study App y de las decisiones tomadas. Las reg
 - Añadido `.gitignore` (`node_modules/`, `dist/`, `.claude/settings.local.json`).
 - Nueva regla en `CLAUDE.md`: hacer commit y push al terminar cada cambio.
 - Añadido `README.md`: funcionalidades, tecnologías, cómo ejecutarlo, estructura y cómo funciona el temporizador.
+- Corregido: el temporizador ya no arranca solo al abrir o recargar la página; espera a que se pulse Play. Cambia el requisito inicial ("que empiece automático"). Tras un cambio automático de modo sigue arrancando solo.
 
 ## Decisiones pendientes de revisar
 Las tomé yo porque el encargo no las especificaba:

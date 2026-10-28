@@ -40,7 +40,7 @@ export default function App() {
   const [preset, setPreset] = useState("corto");
   const [modo, setModo] = useState("foco");
   const [segundosRestantes, setSegundosRestantes] = useState(obtenerDuracion("foco", "corto"));
-  const [enMarcha, setEnMarcha] = useState(true); // true = empieza solo al abrir la web
+  const [enMarcha, setEnMarcha] = useState(false); // false = espera a que el usuario pulse Play
   const [sesiones, setSesiones] = useState({ foco: 0, descansoCorto: 0, descansoLargo: 0 });
 
   // 1) Cuenta atrás: mientras esté en marcha, se actualiza cada segundo.

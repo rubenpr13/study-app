@@ -18,7 +18,7 @@ No hay tests ni linter configurados.
 - `src/main.jsx`: monta `<App />`
 
 ## Reglas del temporizador (no cambiarlas sin pedirlo)
-- Cuenta atrás hasta `00:00`. Arranca solo al abrir la web, en Concentración con 25 min.
+- Cuenta atrás hasta `00:00`. Al abrir o recargar la web se muestra Concentración con 25:00 en pausa; solo empieza al pulsar Play (cambiado por Rubén el 2026-10-29).
 - Presets: Corto = 25 min de foco / 5 min de descanso; Largo = 50 / 10. El Descanso largo dura siempre 30 min y solo se activa a mano.
 - Al llegar a 00:00 se pasa de Concentración a Descanso corto, y de cualquier descanso a Concentración. El siguiente temporizador arranca solo.
 - Una sesión solo se suma cuando el temporizador termina, nunca al pausar, detener o cambiar de modo.
