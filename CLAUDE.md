@@ -29,7 +29,7 @@ No hay tests ni linter configurados.
 ## Git y GitHub
 Repositorio público: https://github.com/rubenpr13/study-app (rama `master`, remoto `origin`).
 - **Subir siempre lo que se modifica (pedido por Rubén el 2026-10-29):** al terminar cada cambio que funcione, haz un commit y un `git push` sin esperar a que te lo pidan. No hace falta preguntar antes.
-- Un commit por cambio, con el mensaje en español y explicando qué se ha hecho.
+- Un commit por cambio, con el mensaje en español, en imperativo y explicando qué se ha hecho.
 - Antes de cada commit, revisa `git status`: nunca subas `node_modules/`, `dist/`, `.claude/settings.local.json` ni claves o contraseñas.
 
 ## Segundo cerebro (vault de Obsidian)
